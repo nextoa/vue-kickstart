@@ -58,7 +58,7 @@ You can fork this repo to create your own boilerplate, and use it with `vue-cli`
 vue init username/repo my-project
 ```
 
-### Difference with official
+## Difference with official
 
 - add `pug` engine (default is still html)
 - add babel plugin `transform-builtin-extend`
