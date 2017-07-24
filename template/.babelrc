@@ -8,7 +8,19 @@
     }],
     "stage-2"
   ],
-  "plugins": ["transform-runtime"],
+  "plugins": [
+    "transform-runtime",
+    [
+      "transform-builtin-extend",
+      {
+        globals: [
+          "Error",
+          "Array",
+          "Date"
+        ]
+      }
+    ]
+  ],
   "env": {
     "test": {
       "presets": ["env", "stage-2"],
