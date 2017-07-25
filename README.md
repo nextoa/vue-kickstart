@@ -61,4 +61,12 @@ vue init username/repo my-project
 ## Difference with official
 
 - add `pug` engine (default is still html)
-- add babel plugin `transform-builtin-extend`
+- add babel plugins
+
+    * transform-builtin-extend
+    
+- add vue plugins
+
+    * bootstrap-vue
+    * vue-awesome
+
