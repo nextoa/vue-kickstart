@@ -70,3 +70,6 @@ vue init username/repo my-project
     * bootstrap-vue
     * vue-awesome
 
+- add webpack plugins
+
+    * sass-loader
